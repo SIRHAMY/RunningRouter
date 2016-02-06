@@ -6,6 +6,7 @@
     "babelify": "^6.3.0",
     "body-parser": "~1.0.1",
     "express": "^4.13.4",
+    "googlemaps": "^1.2.0",
     "react": "^0.14.0-rc1",
     "react-dom": "^0.14.0-rc1",
     "watchify": "^3.4.0"
