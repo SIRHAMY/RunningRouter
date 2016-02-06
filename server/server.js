@@ -1,6 +1,7 @@
 var express = require("express");
 var path = require("path");
 var bodyParser = require('body-parser');
+var gMap = require("googlemaps")
 
 
 var app = express();
@@ -23,6 +24,7 @@ router.get('/', function(req, res) {
 
 // more routes for our API will happen here
 router.get('/map-data', function(req, res) {
+
   res.json({ message: 'You just requested some map data!'});
 })
 
